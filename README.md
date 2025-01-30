@@ -1,72 +1,59 @@
-📊 Sentiment Analysis on Twitter Data
+# 📊 Twitter Sentiment Analysis using Naïve Bayes 🐦  
 
-📌 Overview
+## 📌 Project Overview  
+This project performs **sentiment analysis** on Twitter data using **Natural Language Processing (NLP) techniques** and a **Naïve Bayes classifier**. The dataset consists of labeled tweets categorized by sentiment, and we preprocess the text to train a model that can classify tweets as **positive, negative, neutral**, or other sentiment labels.
 
-This project performs Sentiment Analysis on Twitter data using Natural Language Processing (NLP) techniques. The dataset includes tweets labeled with sentiment categories, and the goal is to analyze and visualize sentiment patterns using machine learning.
+## 🛠️ Tech Stack  
+- **Python** 🐍  
+- **Pandas** 📊  
+- **Matplotlib & Seaborn** 📈  
+- **NLTK (Natural Language Toolkit)** 📖  
+- **Scikit-learn (sklearn)** 🤖  
+- **WordCloud** ☁️  
 
-🚀 Features
+## 📂 Dataset  
+The dataset includes two CSV files:  
+- `twitter_training.csv` 🏋️‍♂️ (Training Data)  
+- `twitter_validation.csv` ✅ (Validation Data)  
+Both datasets are merged and cleaned before processing.
 
-📥 Loads and Preprocesses Twitter training and validation datasets.
+## 🔍 Features  
+✔️ **Data Preprocessing** (Tokenization, Lemmatization, Stopword Removal)  
+✔️ **TF-IDF Vectorization** ✨  
+✔️ **Sentiment Visualization** 📊  
+✔️ **Naïve Bayes Classification** 🤖  
+✔️ **Performance Metrics** (Accuracy, Confusion Matrix, Classification Report)  
 
-🔍 Text Cleaning using tokenization, stopword removal, and lemmatization.
-
-🎨 Visualization
-
-Sentiment distribution using bar charts 📊
-
-Word clouds for different sentiments ☁️
-
-🏆 Machine Learning Model
-
-TF-IDF Vectorization for text representation 🔠
-
-Naive Bayes Classifier for sentiment prediction 🤖
-
-Evaluation Metrics (Accuracy, Confusion Matrix, Classification Report)
-
-📂 Dataset
-
-twitter_training.csv 📄
-
-twitter_validation.csv 📄
-
-Combined for better model performance 🔗
-
-🔧 Installation
-
-Ensure you have the required Python libraries installed:
-
-pip install pandas matplotlib seaborn wordcloud nltk scikit-learn
-
-🛠 Usage
-
-Run the script to execute the sentiment analysis pipeline:
-
+## 🚀 Installation & Usage  
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/aghar-usman/PRODIGY_DS_04.git
+```
+### 2️⃣ Install dependencies  
+```bash
+pip install pandas matplotlib seaborn nltk wordcloud scikit-learn
+```
+### 3️⃣ Run the script  
+```bash
 python Task4.py
+```
 
-📊 Results
+## 📊 Visualizations  
+The script generates:  
+📌 **Sentiment Distribution Plot**  
+📌 **Word Clouds for Different Sentiments** ☁️  
+📌 **Performance Metrics**  
 
-Displays sentiment distribution
+## 📈 Model Evaluation  
+✔️ **Accuracy Score** ✅  
+✔️ **Confusion Matrix** 🔢  
+✔️ **Classification Report** 📝  
 
-Generates word clouds for different sentiment categories
+## 🎯 Future Improvements  
+🔹 Hyperparameter tuning for better accuracy  
+🔹 Implementing deep learning models (LSTMs, Transformers)  
+🔹 Expanding dataset for improved generalization  
 
-Outputs classification accuracy and evaluation metrics
-
-📁 Output
-
-Processed dataset saved as processed_twitter_data.csv 📝
-
-Model evaluation results printed in the console 📜
-
-🎯 Future Improvements
-
-Try Deep Learning models like LSTMs or Transformers 🧠
-
-Implement real-time Twitter sentiment tracking 🕒
-
-Use BERT embeddings for better performance 📈
-
-📝 License
-
-This project is for educational purposes. Feel free to modify and enhance it! 🚀
-
+## 🤝 Contributing  
+Feel free to **fork** this repository, raise **issues**, or submit **pull requests**. Any contributions are appreciated! 🎉  
+---
