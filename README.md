@@ -27,7 +27,7 @@ Both datasets are merged and cleaned before processing.
 ## 🚀 Installation & Usage  
 ### 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/aghar-usman/PRODIGY_DS_04.git
+git clone https://github.com/aghar-usman/Sentiment-Analysis.git
 ```
 ### 2️⃣ Install dependencies  
 ```bash
